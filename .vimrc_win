@@ -1,0 +1,26 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'altercation/vim-colors-solarized'
+Plug 'bling/vim-airline'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree', { 'on': 'NTT' }
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-commentary'
+Plug 'svermeulen/vim-easyclip'
+Plug 'tpope/vim-repeat'
+Plug 'dkarter/bullets.vim'
+
+call plug#end()
+
+set background=dark
+colorscheme solarized
+
+nnoremap gm m
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
